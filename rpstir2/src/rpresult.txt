@@ -1,0 +1,29 @@
+conf file is  /home/cnic/rpki/rpstir2/conf/project.conf
+log file is  /home/cnic/rpki/rpstir2/log/rpstir2.log
+[xorm] [info]  2021/07/21 12:16:31.989659 PING DATABASE mysql
+ipv4 encode time : 174471671 
+ipv6 encode time : 42470775 
+ipv4 rtr time : 108002255 
+ipv6 rtr time : 19635575 
+ipv4 rtr count : 237493 
+ipv6 rtr count : 42282 
+totall ipv4 rtr time : 263986 
+totall ipv6 rtr time : 0 
+totall ipv4 rtr time : 0 
+totall ipv6 rtr time : 8683164 
+conf file is  /home/cnic/rpki/rpstir2/conf/project.conf
+log file is  /home/cnic/rpki/rpstir2/log/rpstir2.log
+[xorm] [info]  2021/07/21 12:16:42.017169 PING DATABASE mysql
+conf file is  /home/cnic/rpki/rpstir2/conf/project.conf
+log file is  /home/cnic/rpki/rpstir2/log/rpstir2.log
+[xorm] [info]  2021/07/21 12:16:52.038147 PING DATABASE mysql
+ipv4 encode time : 175981771 
+ipv6 encode time : 44341672 
+ipv4 rtr time : 89955629 
+ipv6 rtr time : 21377287 
+ipv4 rtr count : 237493 
+ipv6 rtr count : 42282 
+totall ipv4 rtr time : 244385 
+totall ipv6 rtr time : 0 
+totall ipv4 rtr time : 0 
+totall ipv6 rtr time : 9932278 

@@ -1,0 +1,39 @@
+time="2021-07-21T12:16:31Z" level=info msg="gobgpd started" 
+time="2021-07-21T12:16:31Z" level=info msg="Finished reading the config file" Topic=Config 
+time="2021-07-21T12:16:31Z" level=info msg="Peer 172.17.0.7 is added" 
+time="2021-07-21T12:16:31Z" level=info msg="ROA server 127.0.0.1:8082 is connected" Topic=rpki 
+time="2021-07-21T12:16:31Z" level=info msg="Add a peer configuration for:172.17.0.7" Topic=Peer 
+time="2021-07-21T12:16:31Z" level=debug msg="IdleHoldTimer expired" Duration=0 Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:31Z" level=debug msg="state changed" Key=172.17.0.7 Topic=Peer new=BGP_FSM_ACTIVE old=BGP_FSM_IDLE reason=idle-hold-timer-expired 
+time="2021-07-21T12:16:36Z" level=debug msg="try to connect" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:37Z" level=debug msg="failed to connect: dial tcp 0.0.0.0:0->172.17.0.7:179: connect: no route to host" Key=172.17.0.7 Topic=Peer 
+rtr time : 115392746 
+transport time : 8344483261
+time="2021-07-21T12:16:41Z" level=info msg="ROA server 127.0.0.1:8082 is disconnected" Topic=rpki 
+time="2021-07-21T12:16:42Z" level=warning msg="failed to unset md5: no such file or directory" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:42Z" level=info msg="Delete a peer configuration for:172.17.0.7" Topic=Peer 
+time="2021-07-21T12:16:42Z" level=debug msg="stop connect loop" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:42Z" level=warning msg="Failed to AcceptTCP" Error="accept tcp4 0.0.0.0:179: use of closed network connection" Topic=Peer 
+time="2021-07-21T12:16:42Z" level=warning msg="Failed to AcceptTCP" Error="accept tcp6 [::]:179: use of closed network connection" Topic=Peer 
+time="2021-07-21T12:16:42Z" level=debug msg="freed fsm.h" Key=172.17.0.7 State=BGP_FSM_ACTIVE Topic=Peer 
+time="2021-07-21T12:16:42Z" level=info msg="gobgpd started" 
+time="2021-07-21T12:16:42Z" level=warning msg="listen failed" Error="listen tcp :50051: bind: address already in use" Key=":50051" Topic=grpc 
+time="2021-07-21T12:16:42Z" level=fatal msg="failed to listen grpc port: listen tcp :50051: bind: address already in use" 
+time="2021-07-21T12:16:52Z" level=info msg="gobgpd started" 
+time="2021-07-21T12:16:52Z" level=info msg="Finished reading the config file" Topic=Config 
+time="2021-07-21T12:16:52Z" level=info msg="Peer 172.17.0.7 is added" 
+time="2021-07-21T12:16:52Z" level=info msg="Add a peer configuration for:172.17.0.7" Topic=Peer 
+time="2021-07-21T12:16:52Z" level=info msg="ROA server 127.0.0.1:8082 is connected" Topic=rpki 
+time="2021-07-21T12:16:52Z" level=debug msg="IdleHoldTimer expired" Duration=0 Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:52Z" level=debug msg="state changed" Key=172.17.0.7 Topic=Peer new=BGP_FSM_ACTIVE old=BGP_FSM_IDLE reason=idle-hold-timer-expired 
+time="2021-07-21T12:16:58Z" level=debug msg="try to connect" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:16:58Z" level=debug msg="failed to connect: dial tcp 0.0.0.0:0->172.17.0.7:179: connect: no route to host" Key=172.17.0.7 Topic=Peer 
+rtr time : 112477733 
+transport time : 7871082126
+time="2021-07-21T12:17:00Z" level=info msg="ROA server 127.0.0.1:8082 is disconnected" Topic=rpki 
+time="2021-07-21T12:17:29Z" level=warning msg="failed to unset md5: no such file or directory" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:17:29Z" level=info msg="Delete a peer configuration for:172.17.0.7" Topic=Peer 
+time="2021-07-21T12:17:29Z" level=warning msg="Failed to AcceptTCP" Error="accept tcp4 0.0.0.0:179: use of closed network connection" Topic=Peer 
+time="2021-07-21T12:17:29Z" level=warning msg="Failed to AcceptTCP" Error="accept tcp6 [::]:179: use of closed network connection" Topic=Peer 
+time="2021-07-21T12:17:29Z" level=debug msg="stop connect loop" Key=172.17.0.7 Topic=Peer 
+time="2021-07-21T12:17:29Z" level=debug msg="freed fsm.h" Key=172.17.0.7 State=BGP_FSM_ACTIVE Topic=Peer 
